@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 try:
-    import django.heroku
+    import django_heroku
 except:
     django_heroku = None
 
